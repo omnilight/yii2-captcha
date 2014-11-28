@@ -18,7 +18,7 @@ class CaptchaAction extends \yii\captcha\CaptchaAction
      * @var string the TrueType font file. This can be either a file path or path alias.
      * Original captcha use yii/captcha/SpicyRice.ttf
      */
-    public $fontFile = '@omnilight/captcha/Roboto-Regular.ttf';
+    public $fontFile = '@omnilight/captcha/fonts/Roboto-Regular.ttf';
 
     protected function generateVerifyCode()
     {
