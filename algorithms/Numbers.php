@@ -27,7 +27,7 @@ class Numbers extends Original
         $numbers = '0123456789';
         $code = '';
         for ($i = 0; $i < $length; ++$i) {
-            $code .= $numbers[mt_rand(0, 4)];
+            $code .= $numbers[mt_rand(0, 9)];
         }
 
         return $code;
